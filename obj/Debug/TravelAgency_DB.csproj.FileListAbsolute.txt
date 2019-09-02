@@ -1,0 +1,9 @@
+D:\repos\&&&__DataBases___&&&\TravelAgency_DB\TravelAgency_DB\bin\Debug\TravelAgency.mdf
+D:\repos\&&&__DataBases___&&&\TravelAgency_DB\TravelAgency_DB\bin\Debug\TravelAgency_log.ldf
+D:\repos\&&&__DataBases___&&&\TravelAgency_DB\TravelAgency_DB\bin\Debug\TravelAgency_DB.exe.config
+D:\repos\&&&__DataBases___&&&\TravelAgency_DB\TravelAgency_DB\bin\Debug\TravelAgency_DB.exe
+D:\repos\&&&__DataBases___&&&\TravelAgency_DB\TravelAgency_DB\bin\Debug\TravelAgency_DB.pdb
+D:\repos\&&&__DataBases___&&&\TravelAgency_DB\TravelAgency_DB\obj\Debug\TravelAgency_DB.csprojAssemblyReference.cache
+D:\repos\&&&__DataBases___&&&\TravelAgency_DB\TravelAgency_DB\obj\Debug\TravelAgency_DB.csproj.CoreCompileInputs.cache
+D:\repos\&&&__DataBases___&&&\TravelAgency_DB\TravelAgency_DB\obj\Debug\TravelAgency_DB.exe
+D:\repos\&&&__DataBases___&&&\TravelAgency_DB\TravelAgency_DB\obj\Debug\TravelAgency_DB.pdb
