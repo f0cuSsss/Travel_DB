@@ -66,23 +66,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Migrations\TravelAgencyTables.sql" />
-    <Content Include="Queries\Procedure_ - Copy %2810%29.sql" />
-    <Content Include="Queries\Procedure_ - Copy %2811%29.sql" />
-    <Content Include="Queries\Procedure_ - Copy %2812%29.sql" />
-    <Content Include="Queries\Procedure_ - Copy %2813%29.sql" />
-    <Content Include="Queries\Procedure_ - Copy %2814%29.sql" />
-    <Content Include="Queries\Procedure_ - Copy %2815%29.sql" />
-    <Content Include="Queries\Procedure_ - Copy %282%29.sql" />
-    <Content Include="Queries\Procedure_ - Copy %283%29.sql" />
-    <Content Include="Queries\Procedure_ - Copy %284%29.sql" />
-    <Content Include="Queries\Procedure_8.sql" />
+    <Content Include="Queries\_10.sql" />
+    <Content Include="Queries\_11.sql" />
+    <Content Include="Queries\_12.sql" />
+    <Content Include="Queries\_13.sql" />
+    <Content Include="Queries\_15.sql" />
+    <Content Include="Queries\_14.sql" />
+    <Content Include="Queries\_16.sql" />
+    <Content Include="Queries\_17.sql" />
+    <Content Include="Queries\_9.sql" />
+    <Content Include="Queries\Procedure_8+.sql" />
     <Content Include="Queries\View_7.sql" />
     <Content Include="Queries\View_6.sql" />
-    <Content Include="Queries\View_5.sql" />
+    <Content Include="Queries\View_5+-.sql" />
     <Content Include="Queries\View_4.sql" />
-    <Content Include="Queries\Procedure_3.sql" />
-    <Content Include="Queries\Procedure_2.sql" />
-    <Content Include="Queries\View_1.sql" />
+    <Content Include="Queries\Procedure_3+.sql" />
+    <Content Include="Queries\Procedure_2+.sql" />
+    <Content Include="Queries\View_1+.sql" />
     <Content Include="Seeds\FillingTables.sql" />
     <Content Include="TravelAgency.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
