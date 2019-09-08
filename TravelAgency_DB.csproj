@@ -63,18 +63,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Task\_SQL_Ekzamen_1546941673.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Migrations\TravelAgencyTables.sql" />
     <Content Include="Queries\_10.sql" />
     <Content Include="Queries\_11.sql" />
     <Content Include="Queries\_12.sql" />
-    <Content Include="Queries\_13.sql" />
+    <Content Include="Queries\_13+.sql" />
+    <Content Include="Queries\ViewFor5and7tasks.sql" />
     <Content Include="Queries\_15.sql" />
-    <Content Include="Queries\_14.sql" />
-    <Content Include="Queries\_16.sql" />
+    <Content Include="Queries\_14+.sql" />
+    <Content Include="Queries\_16+.sql" />
     <Content Include="Queries\_17.sql" />
-    <Content Include="Queries\_9.sql" />
+    <Content Include="Queries\_9+.sql" />
     <Content Include="Queries\Procedure_8+.sql" />
     <Content Include="Queries\View_7.sql" />
     <Content Include="Queries\View_6.sql" />

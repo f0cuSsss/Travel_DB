@@ -284,6 +284,8 @@
 --INSERT INTO Person([Name], Surname, Patronymic, DOB, Phone, Email) VALUES(N'Роман', N'Сафонов', N'Дмитрьевич', '1970-06-26', '0955134762', 'vDDSEPyXysGsbW@mail.ru');
 --INSERT INTO Person([Name], Surname, Patronymic, DOB, Phone, Email) VALUES(N'Владлен', N'Белозёров', N'Фролович', '1973-05-29', '0955624713', 'qMUTtdlJ@mail.ru');
 
+--INSERT INTO Person([Name], Surname, Patronymic, DOB, Phone, Email) VALUES(N'Архип', N'Аксёнов', N'Альбертович', '1969-12-28', '0937315642', 'HADEMvSVKSC@gmail.com');
+
 ----==================================================================--
 --							/* Employee */
 
