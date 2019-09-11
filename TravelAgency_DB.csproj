@@ -67,8 +67,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Migrations\TravelAgencyTables.sql" />
+    <Content Include="Queries\triggerOrders.sql" />
     <Content Include="Queries\_10.sql" />
     <Content Include="Queries\_11.sql" />
+    <Content Include="Queries\triggerOrder_PaidTourist.sql" />
     <Content Include="Queries\_12.sql" />
     <Content Include="Queries\_13+.sql" />
     <Content Include="Queries\ViewFor5and7tasks.sql" />
@@ -81,7 +83,7 @@
     <Content Include="Queries\View_7.sql" />
     <Content Include="Queries\View_6.sql" />
     <Content Include="Queries\View_5+-.sql" />
-    <Content Include="Queries\View_4.sql" />
+    <Content Include="Queries\View_4+.sql" />
     <Content Include="Queries\Procedure_3+.sql" />
     <Content Include="Queries\Procedure_2+.sql" />
     <Content Include="Queries\View_1+.sql" />

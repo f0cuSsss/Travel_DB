@@ -1,6 +1,8 @@
 ﻿	/* При удалении прошедших туров необходимо переносить их в архив туров */
 
-	--DROP TRIGGER tPastTourToArchive_DELETE
+--DROP TRIGGER tPastTourToArchive_DELETE
+
+--=======================================================================================================================--
 
 CREATE TRIGGER tPastTourToArchive_DELETE on ActualTour
 FOR DELETE 
@@ -10,24 +12,28 @@ BEGIN
 			@StartDate DATE,
 			@EndDate DATE,
 			@ActualTourID INT,
-			@ArchiveActualTourID INT
+			@ArchiveActualTourID INT 
 
-	SELECT	@ActualTourID = deleted.ID,
+	-- Получаем инфу удаленного прошедшего тура
+	SELECT	@ActualTourID = deleted.ID, 
 			@TourID = deleted.TourID, 
 			@StartDate = deleted.StartDate,
 			@EndDate = deleted.EndDate
 	FROM deleted
 
+	-- Добавление в архив прошедших туров
 	INSERT INTO Archive_ActualTour(TourID, StartDate, EndDate)
-	VALUES (@TourID, @StartDate, @EndDate);
+	VALUES (@TourID, @StartDate, @EndDate); 
 
-	SELECT @ArchiveActualTourID = Archive_ActualTour.ID 
+	-- Получаем ID архивного тура
+	SELECT @ArchiveActualTourID = Archive_ActualTour.ID
 	FROM Archive_ActualTour 
 	WHERE	Archive_ActualTour.TourID = @TourID AND
 			Archive_ActualTour.StartDate = @StartDate AND
-			Archive_ActualTour.EndDate = @EndDate
+			Archive_ActualTour.EndDate = @EndDate 
 
-	INSERT INTO Archive_ActualTour_Employee(ActualTourID, EmployeeID)
+	-- Добавление в архив работника, который проводил тур
+	INSERT INTO Archive_ActualTour_Employee(ActualTourID, EmployeeID) 
 	VALUES 
 	(
 		@ArchiveActualTourID,
@@ -42,15 +48,15 @@ BEGIN
 			@PaymentDeadline DATE,
 			@PersonID INT
 
-	WHILE -- sTART WHILE
-	SELECT	@OrderDate = Orders.OrderDate,
-			@PaymentDeadline = Orders.PaymentDeadline,
-			@PersonID = Orders.PersonID
-	FROM Orders
-	WHERE Orders.ActualTourID = @ActualTourID
-
-	INSERT INTO Archive_Orders(OrderDate, PaymentDeadline, ActualTourID, PersonID) 
-	VALUES (@OrderDate, @PaymentDeadline, @ArchiveActualTourID, @PersonID)
-	-- END WHILE
-
+	-- Проходим по всем счетам тура
+	WHILE EXISTS (SELECT * FROM Orders WHERE Orders.ActualTourID = @ActualTourID)
+		BEGIN
+			-- Удаляем одну запись с Orders с конкретным ИД тура. 
+			-- Срабатывет триггер в таблице Orders.
+			DELETE FROM Orders WHERE Orders.ID = 
+					(SELECT TOP(1) Ord.ID FROM Orders Ord WHERE Ord.ActualTourID = @ActualTourID); 
+		END
 END
+
+--=======================================================================================================================--
+

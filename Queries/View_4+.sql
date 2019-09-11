@@ -1,0 +1,37 @@
+﻿ /* Отобразите самую популярную туристическую страну (по самому большому количеству туров с учетом архивных)  */
+
+--CREATE VIEW vMostPopularTourRegion (Country, countTours)
+--AS
+--SELECT curR.[Name], COUNT(curAT.TourID)
+--FROM 
+--	Order_PaidTourist curOPT,
+--	Orders curO,
+--	ActualTour curAT,
+--	Tour_Region curTR, 
+--	Region curR
+--WHERE 
+--		curOPT.OrderID = curO.ID
+--	AND	curO.ActualTourID = curAT.ID
+--	AND	curAT.TourID = curTR.TourID
+--	AND	curTR.RegionID = curR.ID
+--GROUP BY 
+--	curR.[Name]
+----===========================================
+--UNION ALL
+----===========================================
+--SELECT AcurR.[Name], COUNT(AcurAT.TourID)
+--FROM 
+--	Archive_Order_PaidTourist	AcurOPT,
+--	Archive_Orders	AcurO,
+--	Archive_ActualTour	AcurAT,
+--	Tour_Region		AcurTR,
+--	Region	AcurR
+--WHERE 
+--	AcurOPT.OrderId = AcurO.ID
+--	AND AcurO.ActualTourID = AcurAT.ID
+--	AND AcurAT.TourID = AcurTR.TourID
+--	AND AcurTR.RegionID = AcurR.ID
+--GROUP BY 
+--	AcurR.[Name]
+
+--SELECT * FROM vMostPopularTourRegion
