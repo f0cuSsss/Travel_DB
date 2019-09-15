@@ -2,58 +2,58 @@
 ----==================================================================--
 --							/* Должность */
 
-	--INSERT INTO Position ([Name]) VALUES (N'Директор');
-	--INSERT INTO Position ([Name]) VALUES (N'Главный бухгалтер');
-	--INSERT INTO Position ([Name]) VALUES (N'Секретарь');
-	--INSERT INTO Position ([Name]) VALUES (N'Юрист');
-	--INSERT INTO Position ([Name]) VALUES (N'Менеджер');
-	--INSERT INTO Position ([Name]) VALUES (N'Водитель');
-	--INSERT INTO Position ([Name]) VALUES (N'Гид-экскурсовод');
-	--INSERT INTO Position ([Name]) VALUES (N'Клининг-менеджер');
+--	INSERT INTO Position ([Name]) VALUES (N'Директор');
+--	INSERT INTO Position ([Name]) VALUES (N'Главный бухгалтер');
+--	INSERT INTO Position ([Name]) VALUES (N'Секретарь');
+--	INSERT INTO Position ([Name]) VALUES (N'Юрист');
+--	INSERT INTO Position ([Name]) VALUES (N'Менеджер');
+--	INSERT INTO Position ([Name]) VALUES (N'Водитель');
+--	INSERT INTO Position ([Name]) VALUES (N'Гид-экскурсовод');
+--	INSERT INTO Position ([Name]) VALUES (N'Клининг-менеджер');
 
 ----==================================================================--
 --							/* Регионы */
 
-	--INSERT INTO Region ([Name]) VALUES (N'Украина'); -- Крым
-	--INSERT INTO Region ([Name]) VALUES (N'Крым'); -- Старый Крым, г. Судак, Симферополь
-	--INSERT INTO Region ([Name]) VALUES (N'Киргизия'); --  г.Ош, г.Сары-Таш 
-	--INSERT INTO Region ([Name]) VALUES (N'Мексика'); --  
-	--INSERT INTO Region ([Name]) VALUES (N'Шри-Ланка'); --  
-	--INSERT INTO Region ([Name]) VALUES (N'Филиппины'); --  Манила, 
-	--INSERT INTO Region ([Name]) VALUES (N'Франция'); --  Сен-Тропе, 
-	--INSERT INTO Region ([Name]) VALUES (N'Республика Мальта'); -- Luqa, 
-	--INSERT INTO Region ([Name]) VALUES (N'Италия'); -- 
-	--INSERT INTO Region ([Name]) VALUES (N'Хорватия'); -- г. Биоград-на-Мору, г. Зминьяк, г. Пишкера, г. Сали, г. Сукошан, г. Задар
-	--INSERT INTO Region ([Name]) VALUES (N'Абхазия'); -- Гагра, Сухум, Захаровка, Цебельда, Ткуарчал, Кындыг, Новый Афон
-	--INSERT INTO Region ([Name]) VALUES (N'Евразия'); -- Кавказ, 
-	--INSERT INTO Region ([Name]) VALUES (N'Сочи'); -- Адлер
+--	INSERT INTO Region ([Name]) VALUES (N'Украина'); -- Крым
+--	INSERT INTO Region ([Name]) VALUES (N'Крым'); -- Старый Крым, г. Судак, Симферополь
+--	INSERT INTO Region ([Name]) VALUES (N'Киргизия'); --  г.Ош, г.Сары-Таш 
+--	INSERT INTO Region ([Name]) VALUES (N'Мексика'); --  
+--	INSERT INTO Region ([Name]) VALUES (N'Шри-Ланка'); --  
+--	INSERT INTO Region ([Name]) VALUES (N'Филиппины'); --  Манила, 
+--	INSERT INTO Region ([Name]) VALUES (N'Франция'); --  Сен-Тропе, 
+--	INSERT INTO Region ([Name]) VALUES (N'Республика Мальта'); -- Luqa, 
+--	INSERT INTO Region ([Name]) VALUES (N'Италия'); -- 
+--	INSERT INTO Region ([Name]) VALUES (N'Хорватия'); -- г. Биоград-на-Мору, г. Зминьяк, г. Пишкера, г. Сали, г. Сукошан, г. Задар
+--	INSERT INTO Region ([Name]) VALUES (N'Абхазия'); -- Гагра, Сухум, Захаровка, Цебельда, Ткуарчал, Кындыг, Новый Афон
+--	INSERT INTO Region ([Name]) VALUES (N'Евразия'); -- Кавказ, 
+--	INSERT INTO Region ([Name]) VALUES (N'Сочи'); -- Адлер
 
 --	-- Самойленко Денис Николаевич, 050 684 35 88
 
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Крым', 1);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Старый Крым', 2);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'г. Судак', 2);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Симферополь', 2);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'г.Ош', 3);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'г.Сары-Таш', 3);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Манила', 6);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Сен-Тропе', 7);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Luqa', 8);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'г. Биоград-на-Мору', 10);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'г. Зминьяк', 10);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'г. Пишкера', 10);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'г. Сали', 10);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'г. Сукошан', 10);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'г. Задар', 10);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Гагра', 11);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Сухум', 11);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Захаровка', 11);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Цебельда', 11);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Ткуарчал', 11);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Кындыг', 11);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Новый Афон', 11);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Кавказ', 12);
-	--INSERT INTO Region ([Name], ParentID) VALUES (N'Адлер', 13);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Крым', 1);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Старый Крым', 2);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'г. Судак', 2);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Симферополь', 2);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'г.Ош', 3);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'г.Сары-Таш', 3);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Манила', 6);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Сен-Тропе', 7);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Luqa', 8);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'г. Биоград-на-Мору', 10);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'г. Зминьяк', 10);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'г. Пишкера', 10);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'г. Сали', 10);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'г. Сукошан', 10);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'г. Задар', 10);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Гагра', 11);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Сухум', 11);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Захаровка', 11);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Цебельда', 11);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Ткуарчал', 11);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Кындыг', 11);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Новый Афон', 11);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Кавказ', 12);
+--	INSERT INTO Region ([Name], ParentID) VALUES (N'Адлер', 13);
 
 --	-- 1 -- Украина, Старый Крым, Сурб-Хач, Кизил-Таш, Эчки-Даг, Лисья бухта, бухта Чалка, пос. Солнечная долина, г. Судак
 --		-- дост: Сурб-Хач, Кизил-Таш, Эчки-Даг, Лисья бухта, бухта Чалка, пос. Солнечная долина
@@ -77,21 +77,37 @@
 --			-- дост: Шакуранский водопад, озеро Амткел
 
 ----==================================================================--
+--							/* Туры */
+
+--	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Восточный Крым — очей отрада', 2500, 17);
+--	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'По кромке Южного берега', 3500, 10);
+--	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'ВОСХОЖДЕНИЕ НА ПИК ЛЕНИНА 7134 МЕТРА. 
+--	ПАМИР – ВОСХИТИТЕЛЬНОЕ ПУТЕШЕСТВИЕ НА ВЕЛИЧЕСТВЕННУЮ ВЕРШИНУ', 17590, 15);
+--	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Плавание с китовыми акулами в Мексике', 68000, 16);
+--	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Шри-Ланка. Сноркелинг с китами и дельфинами', 95700, 10);
+--	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Филиппины: сафари в Национальном заповеднике Туббатаха', 100999, 9);
+--	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Регата Le Voiles de Saint-Tropez 2016 на яхте 
+--	IMX-40 JukeboX (“Паруса Сен-Тропе”)', 42200, 8);
+--	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Rolex Middle Sea Race 2016 на яхте IMX-40 JukeboX (Средиземноморская регата)', 49960, 8);
+--	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Музыкальная регата MAYHOLIDAYS 2016', 39400, 10);
+--	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Осень в субтропиках. Активно-экскурсионный тур в Абхазию', 22900, 14);
+
+----==================================================================--
 --							/* Tour_Region */
 
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (1, 1);
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (2, 1);
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (3, 3);
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (4, 4);
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (5, 5);
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (6, 6);
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (7, 7);
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (8, 8);
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (8, 8);
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (8, 9);
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (9, 10);
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (10, 11);
-	--INSERT INTO Tour_Region (TourID, RegionID) VALUES (10, 12);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (1, 1);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (2, 1);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (3, 3);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (4, 4);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (5, 5);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (6, 6);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (7, 7);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (8, 8);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (8, 8);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (8, 9);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (9, 10);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (10, 11);
+--	INSERT INTO Tour_Region (TourID, RegionID) VALUES (10, 12);
 
 ----==================================================================--
 --							/* Достопремичательности */
@@ -137,23 +153,6 @@
 --	INSERT INTO Attraction ([Name]) VALUES (N'Шакуранский водопад');
 --	INSERT INTO Attraction ([Name]) VALUES (N'озеро Амткел');
 
-
-----==================================================================--
---							/* Туры */
-
---	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Восточный Крым — очей отрада', 2500, 17);
---	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'По кромке Южного берега', 3500, 10);
---	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'ВОСХОЖДЕНИЕ НА ПИК ЛЕНИНА 7134 МЕТРА. 
---	ПАМИР – ВОСХИТИТЕЛЬНОЕ ПУТЕШЕСТВИЕ НА ВЕЛИЧЕСТВЕННУЮ ВЕРШИНУ', 17590, 15);
---	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Плавание с китовыми акулами в Мексике', 68000, 16);
---	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Шри-Ланка. Сноркелинг с китами и дельфинами', 95700, 10);
---	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Филиппины: сафари в Национальном заповеднике Туббатаха', 100999, 9);
---	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Регата Le Voiles de Saint-Tropez 2016 на яхте 
---	IMX-40 JukeboX (“Паруса Сен-Тропе”)', 42200, 8);
---	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Rolex Middle Sea Race 2016 на яхте IMX-40 JukeboX (Средиземноморская регата)', 49960, 8);
---	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Музыкальная регата MAYHOLIDAYS 2016', 39400, 10);
---	INSERT INTO Tour ([Name], Price, MaxPersons) VALUES (N'Осень в субтропиках. Активно-экскурсионный тур в Абхазию', 22900, 14);
-
 ----==================================================================--
 --							/* Актуальные туры */
 
@@ -178,65 +177,65 @@
 ----==================================================================--
 --							/* Изображения */
 							
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image1');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image2');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image3');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image4');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image5');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image6');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image7');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image8');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image9');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image10');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image11');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image12');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image13');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image14');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image15');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image16');							
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image17');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image18');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image19');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image20');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image21');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image22');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image23');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image24');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image25');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image26');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image27');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image28');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image29');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image30');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image31');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image32');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image1');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image2');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image3');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image4');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image5');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image6');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image7');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image8');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image9');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image10');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image11');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image12');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image13');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image14');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image15');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image16');							
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image17');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image18');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image19');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image20');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image21');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image22');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image23');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image24');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image25');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image26');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image27');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image28');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image29');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image30');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image31');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image32');
 
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image33');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image34');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image35');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image36');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image37');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image38');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image39');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image40');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image41');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image42');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image43');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image44');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image45');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image46');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image47');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image48');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image49');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image50');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image51');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image52');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image53');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image54');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image55');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image56');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image57');
-	--INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image58');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image33');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image34');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image35');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image36');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image37');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image38');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image39');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image40');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image41');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image42');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image43');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image44');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image45');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image46');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image47');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image48');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image49');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image50');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image51');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image52');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image53');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image54');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image55');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image56');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image57');
+--	INSERT INTO Image(ImageLink) VALUES ('www.image.ua/image58');
 
 ----==================================================================--
 --							/* Люди */
@@ -325,7 +324,7 @@
 --INSERT INTO TravelWay ([Name]) VALUES (N'Катер');
 
 ----==================================================================--
-							/* btw_Attraction_Image */
+--							/* btw_Attraction_Image */
 
 --INSERT INTO btw_Attraction_Image(AttractionID, ImageID) VALUES (1, 1);
 --INSERT INTO btw_Attraction_Image(AttractionID, ImageID) VALUES (1, 2);
@@ -380,7 +379,7 @@
 --INSERT INTO btw_Attraction_Image(AttractionID, ImageID) VALUES (32, 35);
 
 ----==================================================================--
-							/* ActualTour_Employee */
+--							/* ActualTour_Employee */
 
 --INSERT INTO ActualTour_Employee(ActualTourID, EmployeeID) VALUES (1, 6);
 --INSERT INTO ActualTour_Employee(ActualTourID, EmployeeID) VALUES (2, 4);
@@ -401,7 +400,7 @@
 --INSERT INTO ActualTour_Employee(ActualTourID, EmployeeID) VALUES (17, 5);
 
 ----==================================================================--
-							/* Orders */
+--							/* Orders */
 
 --INSERT INTO Orders (ActualTourID, PersonID) VALUES (7, 20);
 --INSERT INTO Orders (ActualTourID, PersonID) VALUES (7, 23);
@@ -443,7 +442,7 @@
 --INSERT INTO Orders (ActualTourID, PersonID) VALUES (5, 25);
 
 ----==================================================================--
-							/* Order_PaidTourist */
+--							/* Order_PaidTourist */
 
 --INSERT INTO Order_PaidTourist(OrderID, PaymentAmount) VALUES (1, 68000);
 --INSERT INTO Order_PaidTourist(OrderID, PaymentAmount) VALUES (2, 68000);

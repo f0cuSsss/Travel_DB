@@ -204,8 +204,6 @@
 --ALTER TABLE ActualTour
 --ADD CONSTRAINT FK_TourID FOREIGN KEY (TourID)
 --REFERENCES Tour (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
 
 ----===================================================--
 
@@ -217,157 +215,149 @@
 --ALTER TABLE ActualTour_Employee
 --ADD CONSTRAINT FK_EmployeeID FOREIGN KEY (EmployeeID)
 --REFERENCES Employee (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
 
 ----===================================================--
 
 --ALTER TABLE Archive_ActualTour
 --ADD CONSTRAINT FK_TourID1 FOREIGN KEY (TourID)
 --REFERENCES Tour (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE Archive_ActualTour_Employee
 --ADD CONSTRAINT FK_ActualTourID1 FOREIGN KEY (ActualTourID)
 --REFERENCES ActualTour (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
 --ALTER TABLE Archive_ActualTour_Employee
 --ADD CONSTRAINT FK_EmployeeID1 FOREIGN KEY (EmployeeID)
 --REFERENCES Employee (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE Archive_Order_PaidTourist
 --ADD CONSTRAINT FK_OrderID FOREIGN KEY (OrderID)
 --REFERENCES Orders (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE Archive_Orders
 --ADD CONSTRAINT FK_ActualTourID_AO FOREIGN KEY (ActualTourID)
 --REFERENCES ActualTour (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 --ALTER TABLE Archive_Orders
 --ADD CONSTRAINT FK_PersonID FOREIGN KEY (PersonID)
 --REFERENCES Person (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE btw_Attraction_Image
 --ADD CONSTRAINT FK_AttractionID FOREIGN KEY (AttractionID)
 --REFERENCES Attraction (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 --ALTER TABLE btw_Attraction_Image
 --ADD CONSTRAINT FK_ImageID FOREIGN KEY (ImageID)
 --REFERENCES [Image] (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE btw_Attraction_Visit
 --ADD CONSTRAINT FK_AttractionID_2 FOREIGN KEY (AttractionID)
 --REFERENCES Attraction (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 --ALTER TABLE btw_Attraction_Visit
 --ADD CONSTRAINT FK_VisitID FOREIGN KEY (VisitID)
 --REFERENCES Visit (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE btw_Hotel_Image
 --ADD CONSTRAINT FK_HotelID FOREIGN KEY (HotelID)
 --REFERENCES Hotel (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 --ALTER TABLE btw_Hotel_Image
 --ADD CONSTRAINT FK_ImageID2 FOREIGN KEY (ImageID)
 --REFERENCES Image (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE btw_Hotel_Tour
 --ADD CONSTRAINT FK_ActualTourID_2 FOREIGN KEY (ActualTourID)
 --REFERENCES ActualTour (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 --ALTER TABLE btw_Hotel_Tour
 --ADD CONSTRAINT FK_HotelID_2 FOREIGN KEY (HotelID)
 --REFERENCES Hotel (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE btw_TravelWay_Tour
 --ADD CONSTRAINT FK_ActualTourID_3 FOREIGN KEY (ActualTourID)
 --REFERENCES ActualTour (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 --ALTER TABLE btw_TravelWay_Tour
 --ADD CONSTRAINT FK_TravelWayID FOREIGN KEY (TravelWayID)
 --REFERENCES TravelWay (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE Employee
 --ADD CONSTRAINT FK_PersonID1 FOREIGN KEY (PersonID)
 --REFERENCES Person (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 --ALTER TABLE Employee
 --ADD CONSTRAINT FK_PositionID FOREIGN KEY (PositionID)
 --REFERENCES Position (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE Hotel
 --ADD CONSTRAINT FK_RegionID FOREIGN KEY (RegionID)
 --REFERENCES Region (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE Order_PaidTourist
 --ADD CONSTRAINT FK_OrderID1 FOREIGN KEY (OrderID)
 --REFERENCES Orders (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE Orders
 --ADD CONSTRAINT FK_ActualTourID_4 FOREIGN KEY (ActualTourID)
 --REFERENCES ActualTour (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 --ALTER TABLE Orders
 --ADD CONSTRAINT FK_PersonIDn FOREIGN KEY (PersonID)
 --REFERENCES Person (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
 
@@ -380,25 +370,25 @@
 --ALTER TABLE Visit
 --ADD CONSTRAINT FK_ActualTourID_5 FOREIGN KEY (ActualTourID)
 --REFERENCES ActualTour (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 --ALTER TABLE Visit
 --ADD CONSTRAINT FK_RegionIDn FOREIGN KEY (RegionID)
 --REFERENCES Region (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
 
 --ALTER TABLE Tour_Region
 --ADD CONSTRAINT FK_TourIDg FOREIGN KEY (TourID)
 --REFERENCES Tour (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 --ALTER TABLE Tour_Region
 --ADD CONSTRAINT FK_RegionID2 FOREIGN KEY (RegionID)
 --REFERENCES Region (ID)
---      ON DELETE CASCADE
---      ON UPDATE CASCADE
+--      --ON DELETE CASCADE
+--      --ON UPDATE CASCADE
 
 ------===================================================--
